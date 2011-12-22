@@ -24,17 +24,17 @@
 
 - (void)logMessage:(DDLogMessage *)logMessage
 {
-    NSString *logMsg = logMessage->logMsg;
+    NSString    *logMsg     = nil;
     
-    if (teamToken != nil){
-        if (logFormatter != nil){
-            logMsg = [logFormatter formatLogMessage:logMessage];
-        }
-        
-        if (logMsg != nil){
-            TFLog(logMsg);
-        }
+    logMsg = logMessage->logMsg;
+    if (formatter != nil){
+        logMsg = [formatter formatLogMessage:logMessage];
     }
+    
+    if (logMsg != nil){
+        TFLog(logMsg);
+    }
+    return;
 }
 
 @end

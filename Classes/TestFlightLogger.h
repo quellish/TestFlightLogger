@@ -11,7 +11,7 @@
 
 #import <Foundation/Foundation.h>
 // Cocoa Lumberjack
-//#import "DDLog.h"
+#import "DDLog.h"
 // TestFlight Logging API (expected in External/TestFlight/TestFlight.h)
 #import "TestFlight.h"
 
