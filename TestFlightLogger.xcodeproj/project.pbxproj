@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1722B214A2B56D002485F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1722B114A2B56D002485F1 /* Foundation.framework */; };
+		1B8896AB14A2B870008FFCB8 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8896AA14A2B870008FFCB8 /* libTestFlight.a */; };
+		1B8896B214A2BEB3008FFCB8 /* TestFlightLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1722B714A2B56D002485F1 /* TestFlightLogger.m */; };
+		1B8896B314A2BEB5008FFCB8 /* TestFlightLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1722B614A2B56D002485F1 /* TestFlightLogger.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B1722AE14A2B56D002485F1 /* libTestFlightLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestFlightLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1722B114A2B56D002485F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B1722B614A2B56D002485F1 /* TestFlightLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestFlightLogger.h; path = Classes/TestFlightLogger.h; sourceTree = SOURCE_ROOT; };
+		1B1722B714A2B56D002485F1 /* TestFlightLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestFlightLogger.m; path = Classes/TestFlightLogger.m; sourceTree = SOURCE_ROOT; };
+		1B8896AA14A2B870008FFCB8 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = External/TestFlight/libTestFlight.a; sourceTree = SOURCE_ROOT; };
+		1B8896AC14A2B877008FFCB8 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFlight.h; path = External/TestFlight/TestFlight.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B1722AB14A2B56D002485F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1722B214A2B56D002485F1 /* Foundation.framework in Frameworks */,
+				1B8896AB14A2B870008FFCB8 /* libTestFlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B1722A314A2B56D002485F1 = {
+			isa = PBXGroup;
+			children = (
+				1B8896A814A2B821008FFCB8 /* External */,
+				1B1722B314A2B56D002485F1 /* Classes */,
+				1B1722B014A2B56D002485F1 /* Frameworks */,
+				1B1722AF14A2B56D002485F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B1722AF14A2B56D002485F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B1722AE14A2B56D002485F1 /* libTestFlightLogger.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B1722B014A2B56D002485F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B1722B114A2B56D002485F1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B1722B314A2B56D002485F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B1722B614A2B56D002485F1 /* TestFlightLogger.h */,
+				1B1722B714A2B56D002485F1 /* TestFlightLogger.m */,
+			);
+			name = Classes;
+			path = TestFlightLogger;
+			sourceTree = "<group>";
+		};
+		1B8896A814A2B821008FFCB8 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				1B8896A914A2B841008FFCB8 /* TestFlight */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		1B8896A914A2B841008FFCB8 /* TestFlight */ = {
+			isa = PBXGroup;
+			children = (
+				1B8896AA14A2B870008FFCB8 /* libTestFlight.a */,
+				1B8896AC14A2B877008FFCB8 /* TestFlight.h */,
+			);
+			name = TestFlight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B1722AC14A2B56D002485F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8896B314A2BEB5008FFCB8 /* TestFlightLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B1722AD14A2B56D002485F1 /* TestFlightLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1722BB14A2B56D002485F1 /* Build configuration list for PBXNativeTarget "TestFlightLogger" */;
+			buildPhases = (
+				1B1722AA14A2B56D002485F1 /* Sources */,
+				1B1722AB14A2B56D002485F1 /* Frameworks */,
+				1B1722AC14A2B56D002485F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestFlightLogger;
+			productName = TestFlightLogger;
+			productReference = 1B1722AE14A2B56D002485F1 /* libTestFlightLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B1722A514A2B56D002485F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1B1722A814A2B56D002485F1 /* Build configuration list for PBXProject "TestFlightLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B1722A314A2B56D002485F1;
+			productRefGroup = 1B1722AF14A2B56D002485F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B1722AD14A2B56D002485F1 /* TestFlightLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B1722AA14A2B56D002485F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8896B214A2BEB3008FFCB8 /* TestFlightLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B1722B914A2B56D002485F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B1722BA14A2B56D002485F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B1722BC14A2B56D002485F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TestFlightLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightLogger/External/TestFlight\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B1722BD14A2B56D002485F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TestFlightLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightLogger/External/TestFlight\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B1722A814A2B56D002485F1 /* Build configuration list for PBXProject "TestFlightLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1722B914A2B56D002485F1 /* Debug */,
+				1B1722BA14A2B56D002485F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B1722BB14A2B56D002485F1 /* Build configuration list for PBXNativeTarget "TestFlightLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1722BC14A2B56D002485F1 /* Debug */,
+				1B1722BD14A2B56D002485F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B1722A514A2B56D002485F1 /* Project object */;
+}
