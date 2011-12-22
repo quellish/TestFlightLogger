@@ -11,6 +11,14 @@
 		1B8896AB14A2B870008FFCB8 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8896AA14A2B870008FFCB8 /* libTestFlight.a */; };
 		1B8896B214A2BEB3008FFCB8 /* TestFlightLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1722B714A2B56D002485F1 /* TestFlightLogger.m */; };
 		1B8896B314A2BEB5008FFCB8 /* TestFlightLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1722B614A2B56D002485F1 /* TestFlightLogger.h */; };
+		1B8896F214A2C333008FFCB8 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8896E214A2C333008FFCB8 /* DDASLLogger.h */; };
+		1B8896F314A2C333008FFCB8 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8896E314A2C333008FFCB8 /* DDASLLogger.m */; };
+		1B8896F414A2C333008FFCB8 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8896E414A2C333008FFCB8 /* DDFileLogger.h */; };
+		1B8896F514A2C333008FFCB8 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8896E514A2C333008FFCB8 /* DDFileLogger.m */; };
+		1B8896F614A2C333008FFCB8 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8896E614A2C333008FFCB8 /* DDLog.h */; };
+		1B8896F714A2C333008FFCB8 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8896E714A2C333008FFCB8 /* DDLog.m */; };
+		1B8896F814A2C333008FFCB8 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8896E814A2C333008FFCB8 /* DDTTYLogger.h */; };
+		1B8896F914A2C333008FFCB8 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8896E914A2C333008FFCB8 /* DDTTYLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		1B1722B714A2B56D002485F1 /* TestFlightLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestFlightLogger.m; path = Classes/TestFlightLogger.m; sourceTree = SOURCE_ROOT; };
 		1B8896AA14A2B870008FFCB8 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = External/TestFlight/libTestFlight.a; sourceTree = SOURCE_ROOT; };
 		1B8896AC14A2B877008FFCB8 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFlight.h; path = External/TestFlight/TestFlight.h; sourceTree = SOURCE_ROOT; };
+		1B8896E214A2C333008FFCB8 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		1B8896E314A2C333008FFCB8 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		1B8896E414A2C333008FFCB8 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		1B8896E514A2C333008FFCB8 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		1B8896E614A2C333008FFCB8 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		1B8896E714A2C333008FFCB8 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		1B8896E814A2C333008FFCB8 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		1B8896E914A2C333008FFCB8 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,7 @@
 		1B8896A814A2B821008FFCB8 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				1B8896DF14A2C333008FFCB8 /* Lumberjack */,
 				1B8896A914A2B841008FFCB8 /* TestFlight */,
 			);
 			name = External;
@@ -88,6 +105,22 @@
 			name = TestFlight;
 			sourceTree = "<group>";
 		};
+		1B8896DF14A2C333008FFCB8 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				1B8896E214A2C333008FFCB8 /* DDASLLogger.h */,
+				1B8896E314A2C333008FFCB8 /* DDASLLogger.m */,
+				1B8896E414A2C333008FFCB8 /* DDFileLogger.h */,
+				1B8896E514A2C333008FFCB8 /* DDFileLogger.m */,
+				1B8896E614A2C333008FFCB8 /* DDLog.h */,
+				1B8896E714A2C333008FFCB8 /* DDLog.m */,
+				1B8896E814A2C333008FFCB8 /* DDTTYLogger.h */,
+				1B8896E914A2C333008FFCB8 /* DDTTYLogger.m */,
+			);
+			name = Lumberjack;
+			path = External/CocoaLumberjack/Lumberjack;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -96,6 +129,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B8896B314A2BEB5008FFCB8 /* TestFlightLogger.h in Headers */,
+				1B8896F214A2C333008FFCB8 /* DDASLLogger.h in Headers */,
+				1B8896F414A2C333008FFCB8 /* DDFileLogger.h in Headers */,
+				1B8896F614A2C333008FFCB8 /* DDLog.h in Headers */,
+				1B8896F814A2C333008FFCB8 /* DDTTYLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +187,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B8896B214A2BEB3008FFCB8 /* TestFlightLogger.m in Sources */,
+				1B8896F314A2C333008FFCB8 /* DDASLLogger.m in Sources */,
+				1B8896F514A2C333008FFCB8 /* DDFileLogger.m in Sources */,
+				1B8896F714A2C333008FFCB8 /* DDLog.m in Sources */,
+				1B8896F914A2C333008FFCB8 /* DDTTYLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +246,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlightLogger/External/TestFlight\"",
 				);
+				"OTHER_CFLAGS[arch=*]" = "-fobjc-arc";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -220,6 +262,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlightLogger/External/TestFlight\"",
 				);
+				"OTHER_CFLAGS[arch=*]" = "-fobjc-arc";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
