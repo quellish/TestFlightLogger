@@ -1,0 +1,5 @@
+TestFlightLogger: CocoaLumberjack plug in for logging using the TestFlight SDK
+==============================================================================
+
+[CocoaLumberjack](https://github.com/robbiehanson/CocoaLumberjack)
+[TestFlight SDK](https://testflightapp.com/sdk/)
