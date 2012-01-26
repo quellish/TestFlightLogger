@@ -1,4 +1,4 @@
-TestFlightLogger: CocoaLumberjack plug in for logging using the TestFlight SDK
+TestFlightLogger: Custom logger for the Cocoa Lumberjack logging API that interfaces to TestFlightApp.com's remote logging.
 ==============================================================================
 
 [CocoaLumberjack](https://github.com/robbiehanson/CocoaLumberjack)
