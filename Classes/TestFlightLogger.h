@@ -10,7 +10,7 @@
 #define __TESTFLIGHTLOGGER_H__
 
 #import <Foundation/Foundation.h>
-// Cocoa Lumberjack
+// Cocoa Lumberjack (Expected in External/CocoaLumberjack/Lumberjack/DDLog.h)
 #import "DDLog.h"
 // TestFlight Logging API (expected in External/TestFlight/TestFlight.h)
 #import "TestFlight.h"
@@ -22,5 +22,17 @@
 @interface TestFlightLogger : DDAbstractLogger <DDLogger> {
     
 }
+
+/*!
+ 
+ Initialize the logger with the Team Token assigned for your TestFlight team.
+ 
+ @see https://www.testflightapp.com/sdk
+ @param String the TestFlight API Team Token for your Team.
+
+ */
+
+- (id)initWithTeamToken:(NSString *)teamToken;
+
 @end
 #endif
